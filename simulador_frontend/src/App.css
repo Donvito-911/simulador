@@ -1,0 +1,26 @@
+
+body {
+    background-color: #0f2336;
+    margin: 0;
+    padding:0;
+    font-family: sans-serif;
+  }
+select{
+    padding: .5em .2rem .5rem .5rem;
+    border: ghostwhite;
+    border-radius: .5rem ;
+    background-color: rgb(235, 235, 235);
+    
+}
+main{
+    height: 100vh; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+    margin: auto 
+}
+
+select:focus{
+    outline: none;
+}
