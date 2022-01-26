@@ -2,9 +2,9 @@ from django.db import models
 import pandas as pd
 # Create your models here.
 class DataBase:
-    filename = "data.csv"
-    df = pd.read_csv(f"temp/data.csv", sep=";")
-    options = {"zone_0": list(df["zone_0"].unique()), "attr_0": list(df["attr_0"].unique())}
+    filename = ""
+    # df = pd.read_csv(f"temp/data.csv", sep=";")
+    # options = {"zone_0": list(df["zone_0"].unique()), "attr_0": list(df["attr_0"].unique())}
     @classmethod
     def change_db(cls, filename):
         cls.filename = filename
